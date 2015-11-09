@@ -1,0 +1,17 @@
+Alexandra Lambright
+4401588
+Lab Assignment 1 - "Dictionary using Arrays"
+
+To create the program : make Dictionary
+To execute and use the text file provided : ./Dictionary <text.txt
+
+This simple dictionary is designed to collect 20 words with a maximum of 15 
+characters and count the frequency of how many times each word has been used in any
+type of input.
+
+IF the words are too long(exceeds 14 characters not including the null byte), or 
+there are too many NEW words(more than 20) used in the file or the command line, 
+the user will be given a gentle reminder that what they have input was too much. 
+However the program will still run, cutting the words so it fits in the allocated 
+space and not taking into consideration any word after the 20th word, except if it is a word that is already inside the array. In which case the frequency of the word 
+will increment.
